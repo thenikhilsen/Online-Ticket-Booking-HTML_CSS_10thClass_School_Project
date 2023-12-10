@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose Your Trip</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        .nav{
+            height: 50px;
+        }
+        .nav ul{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            padding: 2px 30px;
+        }
+        .nav h3{
+            color: #2980b9;
+            font-weight: 900;
+        }
+        .nav ul{
+            display: flex;
+        }
+        .nav ul li{
+            list-style: none;
+            margin: 5px auto;
+            height: 20px;
+            font-size: 18px;
+        }
+        .nav ul li:hover{
+            border-bottom: 2px solid #2980b9;
+            transition: ease-in-out 0.9ms;
+        }
+        .nav ul li a{
+            text-decoration: none;
+            color: #2980b9;
+            font-weight: 500;
+        }
+        .container{
+            height: 100vh;
+            width: 100%;
+            background-image: url('26088.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        .features{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .indiContainer{
+            background-color: #fff;
+            border-radius: 20px;
+            margin-top: 60px;
+            height: 400px;
+            width: 800px;
+            padding: 10px 30px;
+            font-size: 20px;
+        }
+        .indiContainer button{
+            width: 150px;
+            height: 50px;
+            margin-left: 650px;
+            margin-top: 10px;
+            background-color: #2ecc71;
+            border: 0;
+            outline: 0;
+            color: #fff;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        .indiContainer h2{
+            text-align: center;
+            color: #e74c3c;
+            text-transform: uppercase;
+        }
+        .indiContainer li{
+            margin-top: 10px;
+            color: #2980b9;
+            list-style: none;
+        }
+        .indiContainer ul{
+            margin-top: 40px;
+        }
+        .indiContainer button:hover{
+            background-color: #1abc9c;
+        }
+        .indiContainer button:active{
+            background-color: #e74c3c;
+        }
+        .indiContainer button a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .reviews{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .reviews textarea{
+            border: 0;
+            outline: 0;
+            background-color: #ecf0f1;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        .contactAddress{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            font-size: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li><a href="http://127.0.0.1:5500/chooseyourtrip.html">Choose Your Trip</a></li>
+            <li><a href="http://127.0.0.1:5500/aboutus.html">About Us</a></li>
+            <li><a href="http://127.0.0.1:5500/contact.html" style="color: #1abc9c;">Contact</a></li>
+        </ul>
+    </div>
+    <div class="container"> 
+        <div class="features">
+            <div class="indiContainer">
+                <h1 style="color: #2980b9; text-align: center;">CONTACT US</h1>
+                <h3 style="color: #34495e;">Gurgaon (Head Office)</h3>
+                <hr>
+                <div class="contactAddress">
+                    <div>
+                        <p>BookTicketsOnline India Pvt. Ltd</p>
+                        <p>DLF Building No. 5 Tower B</p>
+                        <p>DLF Cyber City, DLF Phase 2</p>
+                        <p>Sector 25, Gurugram, Haryana</p>
+                        <p>122002,</p>
+                        <p>India</p>
+                    </div>
+                    <div>
+                        <p>(0124) 4628747</p>
+                        <p>(0124) 2898000</p>
+                        <p>(0124) 2898045</p>
+                        <p>(0124) 2789546</p>
+                    </div>
+                    <div>
+                        <iframe style="width: 300px; height: 200px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d120645.09042102378!2d72.7706176582031!3d19.100676099999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9a6f5cedae7%3A0xa8f974349e5ed9a3!2sMakeMyTrip%20Vile%20Parle%20West%2C%20Mumbai!5e0!3m2!1sen!2sin!4v1702222692283!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>    
+        </div>
+    </div>
+</body>
+</html>
